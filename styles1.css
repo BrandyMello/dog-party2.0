@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #75e2e6;
+  border-bottom: 2px solid #048eaa;
+  height: 70px;
+}
+
+.icon {
+  float: left;
+  margin: 10px 0px 0px 20px;
+  width: 50px;
+  height: auto;
+}
+
+ul.site-nav li {
+  display: inline;
+  list-style:  none;
+
+}
+
+.site-nav {
+  margin-left: 70%;
+  padding-top: 25px;
+}
+
+li {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+body {
+  font-family: 'Open-Sans';
+}
+
