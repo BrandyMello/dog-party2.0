@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Open-Sans';
+}
+
 nav {
   background-color: #75e2e6;
   border-bottom: 2px solid #048eaa;
@@ -35,7 +39,46 @@ li {
   margin-right: 15px;
 }
 
-body {
-  font-family: 'Open-Sans';
+/*.clearfix:after {
+  clear: both;
+}*/
+
+.name-dog-form {
+  color: #fff;
+  background: url(images/park.jpg);
+  background-size: cover;
+  background-color: gray;
+  background-blend-mode: multiply;
+  display: block;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.some-dog {
+  font-weight: 800;
+}
+
+.some-dog-img {
+  border-radius: 50%;
+  border: 2px solid #048eaa;
+  width: 200px;
+}
+
+.form-label {
+  width: 100%;
+  float: left;
+}
+
+.form-input {
+  width: 33%;
+}
+
+.form-btn {
+  background-color: #75e2e6;
+  border: none;
+  display: block;
+  width: 33%;
 }
 
