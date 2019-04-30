@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Open-Sans';
+  font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -24,11 +24,10 @@ nav {
 ul.site-nav li {
   display: inline;
   list-style:  none;
-
 }
 
 .site-nav {
-  margin-left: 70%;
+  margin-left: 60%;
   padding-top: 25px;
 }
 
@@ -45,15 +44,19 @@ li {
 
 .name-dog-form {
   color: #fff;
-  background: url(images/park.jpg);
+  background: url(images/park.jpg) no-repeat center center;
   background-size: cover;
   background-color: gray;
   background-blend-mode: multiply;
   display: block;
+  height: 550px;
 }
 
 h1 {
+  font-size: 2.5em;
   font-weight: 400;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .some-dog {
@@ -61,24 +64,59 @@ h1 {
 }
 
 .some-dog-img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.dog-img {
   border-radius: 50%;
   border: 2px solid #048eaa;
   width: 200px;
 }
 
 .form-label {
-  width: 100%;
-  float: left;
+  width: 30%;
+  display: block;
+  margin: 20px auto 10px auto;
+  font-size: 1.2em;
 }
 
 .form-input {
-  width: 33%;
+  width: 30%;
+  display: block;
+  margin: auto;
+  height: 40px;
 }
 
 .form-btn {
   background-color: #75e2e6;
   border: none;
+  width: 30%;
   display: block;
-  width: 33%;
+  margin: 20px auto;
+  height: 40px;
+}
+
+.how-what-facts {
+  width: ;
+}
+
+.info-btn {
+  background-color: #048eaa;
+  color: #fff;
+  border: none;
+  width: 20%;
+  margin: 20px auto;
+  height: 40px;
+}
+
+footer {
+  background-color: #048eaa;
+  color: #fff;
+}
+
+#columns {
+  column-count: 3;
 }
 
