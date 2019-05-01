@@ -88,6 +88,9 @@ h1 {
   margin: auto;
   height: 40px;
   border: none;
+  outline: none;
+  font-size: 1.3em;
+  padding: 10px;
 }
 
 .form-btn {
@@ -98,6 +101,7 @@ h1 {
   display: block;
   margin: 20px auto;
   height: 40px;
+  outline: none;
 }
 
 .info-btn {
@@ -159,18 +163,33 @@ footer {
   .content {
     height: 320px;
   }
+  .form-label,
+    .form-btn,
+    .form-input {
+      width: 55%;
+    }
 }
 
 @media screen and (max-width: 860px) {
   .content {
     height: 360px;
   }
+  .form-label,
+    .form-btn,
+    .form-input {
+      width: 55%;
+    }
 }
 
 @media screen and (max-width: 780px) {
   .content {
     height: 400px;
   }
+  .form-label,
+    .form-btn,
+    .form-input {
+      width: 55%;
+    }
 }
 
 @media screen and (max-width: 740px) {
@@ -200,7 +219,7 @@ footer {
       list-style: none;
     }
     .mobile-list {
-      margin-left: 60%;
+      margin-left: 50%;
     }
     h1 {
       font-size: 2em;
