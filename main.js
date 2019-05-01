@@ -9,3 +9,10 @@ function changeName(e) {
   nameDisplay.innerText = dogName.value;
   dogName.value = "";
 }
+ // console.log('how-content')
+var showLessHowBtn = document.getElementById('show-less-facts-btn')
+
+showLessHowBtn.addEventListener('click', function (e) {
+  document.querySelector('how-content').setAttribute('hidden');
+
+});
