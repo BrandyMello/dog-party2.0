@@ -38,10 +38,6 @@ li {
   margin-right: 15px;
 }
 
-/*.clearfix:after {
-  clear: both;
-}*/
-
 .name-dog-form {
   color: #fff;
   background: url(images/park.jpg) no-repeat center center;
@@ -87,6 +83,7 @@ h1 {
   display: block;
   margin: auto;
   height: 40px;
+  border: none;
 }
 
 .form-btn {
@@ -137,6 +134,17 @@ h3 {
   margin-right: 20%;
 }
 
-.show-less-btn {
+footer {
+  text-align: center;
+  height: 180px;
+}
 
+.footer-message {
+  font-size: 1.2em;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer-img {
+  margin: 10px;
 }
