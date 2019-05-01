@@ -24,6 +24,8 @@ nav {
 ul.site-nav li {
   display: inline;
   list-style:  none;
+  float: right;
+  margin-right: 20px;
 }
 
 .site-nav {
@@ -34,8 +36,6 @@ ul.site-nav li {
 li {
   font-weight: 400;
   font-size: 18px;
-  text-align: center;
-  margin-right: 15px;
 }
 
 ul.mobile-list li{
