@@ -34,7 +34,7 @@ ul.site-nav li {
 }
 
 li {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
 }
 
@@ -217,9 +217,10 @@ footer {
     ul.mobile-list li {
       display: inline-block;
       list-style: none;
+      float: right;
     }
-    .mobile-list {
-      margin-left: 50%;
+    .mobile-list li {
+      margin: 10px;
     }
     h1 {
       font-size: 2em;
