@@ -71,7 +71,7 @@ h1 {
 
 .dog-img {
   border-radius: 50%;
-  border: 2px solid #048eaa;
+  border: 4px solid #048eaa;
   width: 200px;
 }
 
@@ -92,14 +92,11 @@ h1 {
 .form-btn {
   background-color: #75e2e6;
   border: none;
+  font-size: 1.3em;
   width: 30%;
   display: block;
   margin: 20px auto;
   height: 40px;
-}
-
-.how-what-facts {
-  width: ;
 }
 
 .info-btn {
@@ -107,8 +104,11 @@ h1 {
   color: #fff;
   border: none;
   width: 20%;
-  margin: 20px auto;
+  margin: 6.5%;
   height: 40px;
+  font-size: 1.3em;
+  /*display: inline-block;*/
+  
 }
 
 footer {
@@ -120,3 +120,23 @@ footer {
   column-count: 3;
 }
 
+h3 {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 1.8em;
+}
+
+.style-main-imgs {
+  display: block;
+  margin: 0px auto 20px;
+}
+
+.content {
+  align-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.show-less-btn {
+
+}
