@@ -113,7 +113,6 @@ h3 {
 
 .content {
   align-content: left;
-  /*float: right;*/
 }
 
 article {
@@ -123,15 +122,29 @@ article {
 div {
   float: right;
   width: 85%;
-  padding: 20px;
+  padding: 40px;
   border-left: 2px solid #3E3544;
+}
+
+.how-what-facts {
+  font-size: 1.8em;
+  margin: 0px 0px 20px 40px;
+}
+
+.info-btn {
+  background-color: #3E3544;
+  color: #fff;
+  border: none;
+  display: block;
+  font-size: 1.3em;  
 }
 
 footer {
   background-color: #3E3544;
   position: fixed;
-  width: 100%;
-  bottom: 0px;
+  width: 85%;
+  bottom: -27px;
+  right: 0px;
 }
 
 /** {
