@@ -58,7 +58,7 @@ form {
   font-weight: 300;
   float: right;
   margin-left: 20%;
-  margin-right: 180px;
+  margin-right: 150px;
 }
 
 h1 {
@@ -66,8 +66,14 @@ h1 {
   padding-top: 70px;
   font-weight: 300;
   float: right;
-  font-size: 2.5em;
-  margin-right: 210px;
+  font-size: 2.3em;
+  margin-right: 150px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .some-dog {
@@ -76,14 +82,56 @@ h1 {
 
 .form-label {
   text-align: left;
+  margin-bottom: -15px;
 }
 
 .form-label,
 .form-input,
 .form-btn {
-  height: 40px;
+  height: 50px;
   display: block;
-  width: 500px;
+  width: 400px;
+  border: none;
+  outline: none;
+}
+
+.form-btn {
+  margin-top: 20px;
+  background-color: #9A969C;
+  font-size: 1.5em;
+  font-family: 'Roboto Slab', serif;
+  }
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+.style-main-imgs {
+  display: block;
+}
+
+.content {
+  align-content: left;
+  /*float: right;*/
+}
+
+article {
+  border-bottom: 2px solid #9A969C;
+}
+
+div {
+  float: right;
+  width: 85%;
+  padding: 20px;
+  border-left: 2px solid #3E3544;
+}
+
+footer {
+  background-color: #3E3544;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
 }
 
 /** {
