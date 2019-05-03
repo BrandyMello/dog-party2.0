@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+nav {
+  background-color: #9A969C;
+  width: 15%;
+  height: 900px;
+  float: left;
+}
+
+.icon {
+  width: 150px;
+  height: auto;
+  margin: 20px;
+}
+
+ul.site-nav li {
+  list-style:  none;
+  font-weight: 700;
+}
+
+.site-nav li {
+  margin: 50px 0px;
+}
+
+ul.mobile-list li{
+  display: none;
+}
+
+.name-dog-form {
+  background-color: #3E3544;
+  color: #fff;
+  height: 450px;
+}
+
+.dog-img {
+  border-radius: 50%;
+  border: 4px solid #9A969C;
+  width: 200px;
+}
+
+.some-dog-img {
+  width: 400px;
+  position: absolute;
+  top: 25px;
+  left: 20%;
+}
+
+form {
+  text-align: right;
+  padding-top: 70px;
+  font-weight: 300;
+  float: right;
+  margin-left: 20%;
+  margin-right: 150px;
+}
+
+h1 {
+  text-align: right;
+  padding-top: 70px;
+  font-weight: 300;
+  float: right;
+  font-size: 2.3em;
+  margin-right: 150px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.some-dog {
+  font-weight: 800;
+}
+
+.form-label {
+  text-align: left;
+  margin-bottom: -15px;
+}
+
+.form-label,
+.form-input,
+.form-btn {
+  height: 50px;
+  display: block;
+  width: 400px;
+  border: none;
+  outline: none;
+}
+
+.form-btn {
+  margin-top: 20px;
+  background-color: #9A969C;
+  font-size: 1.5em;
+  font-family: 'Roboto Slab', serif;
+  }
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+.style-main-imgs {
+  display: block;
+}
+
+.content {
+  align-content: left;
+}
+
+article {
+  border-bottom: 2px solid #9A969C;
+}
+
+div {
+  float: right;
+  width: 85%;
+  padding: 40px;
+  border-left: 2px solid #3E3544;
+}
+
+.how-what-facts {
+  font-size: 1.8em;
+  margin: 0px 0px 20px 40px;
+}
+
+.info-btn {
+  background-color: #3E3544;
+  color: #fff;
+  border: none;
+  display: block;
+  font-size: 1.3em;  
+}
+
+footer {
+  background-color: #3E3544;
+  position: fixed;
+  width: 85%;
+  bottom: -27px;
+  right: 0px;
+}
+
+/** {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  background-color: #75e2e6;
+  border-bottom: 2px solid #048eaa;
+  height: 70px;
+}
+
+.icon {
+  float: left;
+  margin: 10px 0px 0px 20px;
+  width: 50px;
+  height: auto;
+}
+
+ul.site-nav li {
+  display: inline;
+  list-style:  none;
+  float: right;
+  margin-right: 20px;
+}
+
+.site-nav {
+  margin-left: 60%;
+  padding-top: 25px;
+}
+
+li {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+ul.mobile-list li{
+  display: none;
+}
+
+.name-dog-form {
+  color: #fff;
+  background: url(images/park.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: gray;
+  background-blend-mode: multiply;
+  display: block;
+  height: 550px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.some-dog {
+  font-weight: 800;
+}
+
+.some-dog-img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.dog-img {
+  border-radius: 50%;
+  border: 4px solid #048eaa;
+  width: 200px;
+}
+
+.form-label {
+  width: 30%;
+  display: block;
+  margin: 20px auto 10px auto;
+  font-size: 1.2em;
+}
+
+.form-input {
+  width: 30%;
+  display: block;
+  margin: auto;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+.form-btn {
+  background-color: #75e2e6;
+  border: none;
+  font-size: 1.3em;
+  width: 30%;
+  display: block;
+  margin: 20px auto;
+  height: 40px;
+  outline: none;
+}
+
+.info-btn {
+  background-color: #048eaa;
+  color: #fff;
+  border: none;
+  width: 60%;
+  vertical-align: middle;
+  display: block;
+  margin: 40px auto;
+  height: 40px;
+  font-size: 1.3em;  
+}
+
+#columns {
+  column-count: 3;
+}
+
+h3 {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 1.8em;
+}
+
+.style-main-imgs {
+  display: block;
+  margin: 0px auto 20px;
+}
+
+.content {
+  align-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 275px;
+}
+
+footer {
+  background-color: #048eaa;
+  color: #fff;
+  text-align: center;
+  height: 180px;
+}
+
+.footer-message {
+  font-size: 1.2em;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer-img {
+  margin: 10px;
+}
+
+@media screen and (max-width: 990px) {
+ /* .site-nav {
+    margin-left: 40%;
+  }*/
+
+ /* .content {
+    height: 320px;
+  }
+  .form-label,
+    .form-btn,
+    .form-input {
+      width: 55%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+  .content {
+    height: 360px;
+  }
+  .form-label,
+    .form-btn,
+    .form-input {
+      width: 55%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+  .content {
+    height: 400px;
+  }
+  .form-label,
+    .form-btn,
+    .form-input {
+      width: 55%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+   .site-nav {
+      margin-left: 20%;
+  }
+    #columns {
+      column-count: 1;
+  }
+    .content {
+      margin-left: 10%;
+      margin-right: 10%;
+      height: auto;
+    }
+    h3 {
+    padding: 20px 0px;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 490px) {
+    ul.site-nav li {
+      display: none;
+    }
+    ul.mobile-list li {
+      display: inline-block;
+      list-style: none;
+      float: right;
+    }
+    .mobile-list li {
+      margin: 10px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    .form-label,
+    .form-btn,
+    .form-input {
+      width: 75%;
+    }
+    h3 {
+      padding: 20px 0px;
+      font-size: 1.5em;
+    }
+}*//**/
