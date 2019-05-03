@@ -138,6 +138,14 @@ h3 {
   height: 275px;
 }
 
+article {
+  height: 675px;
+}
+
+#how-content {
+  display: block;
+}
+
 footer {
   background-color: #048eaa;
   color: #fff;
