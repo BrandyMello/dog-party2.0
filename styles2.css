@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  /*border: 3px solid red;*/
 }
 
 body {
@@ -8,13 +9,13 @@ body {
   background-color: #9A969C;
 }
 
-#columns {
+#main-content {
   background-color: #fff;
   width: 83%;
   float: right;
 }
-
-/*.clearfix:after {
+/*
+.clearfix:after {
   content: "";
   display: table;
   clear:both;
@@ -112,33 +113,33 @@ h3 {
   font-size: 1.8em;
 }
 
-.style-main-imgs {
-  display: block;
-}
-
 .content {
   color: #9A969C;
 }
 
+.title-img {
+  width: 20%;
+}
+
 .how-content {
-  position: absolute;
-  left: 46%;
-  bottom: 64px;
-  width: 48%;
+  float: right;
+  margin-top: 22px;
+  font-size: 17px;
+  width: 68%;
 }
 
 .what-content {
-  position: absolute;
-  left: 46%;
-  top: 123%;
-  width: 48%;
+  float: right;
+  margin-top: 22px;
+  font-size: 17px;
+  width: 68%;
 }
 
 .facts-content {
-  position: absolute;
-  top: 1239px;
-  left: 46%;
-  width: 48%;
+  float: right;
+  margin-top: 22px;
+  font-size: 17px;
+  width: 68%;
 }
 
 article {
@@ -157,7 +158,6 @@ div {
 
 .how-what-facts-info {
   padding-bottom: 30px;
-  /*column-count: 2;*/
 }
 
 .info-btn {
