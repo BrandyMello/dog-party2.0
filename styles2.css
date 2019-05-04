@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto Slab', serif;
-  background-color: #9A969C;
+  /*background-color: #9A969C;*/
 }
 
 #main-content {
@@ -14,18 +14,16 @@ body {
   width: 83%;
   float: right;
 }
-/*
-.clearfix:after {
-  content: "";
-  display: table;
-  clear:both;
-}*/
 
 nav {
   float: left;
   background-color: #9A969C;
   width: 17%;
-  height: 100%;
+  height: 1804px;
+
+  border-right: 2px solid #3E3544;
+
+
 }
 
 .icon {
@@ -48,9 +46,11 @@ ul.mobile-list li{
 }
 
 .name-dog-form {
+  /*display: inline-block;*/
   background-color: #3E3544;
   color: #fff;
   height: 450px;
+  width: 83%;
 }
 
 .dog-img {
@@ -60,26 +60,35 @@ ul.mobile-list li{
 }
 
 .some-dog-img {
-  width: 400px;
-  position: relative;
+  margin: 1.5%;
+  border-radius: 50%;
+  border: 4px solid #9A969C;
+  width: 35%;
+  float: left;
+  /*position: relative;
   left: 30px;
-  bottom: 142px;
+  bottom: 142px;*/
 }
 
 form {
-  position: relative;
+  /*position: relative;
   bottom: 425px;
-  left: 62%;
+  left: 62%;*/
   font-weight: 300;
   width: 37%;
+  float: right;
+  margin-right: 10%;
 }
 
 h1 {
   font-weight: 300;
   font-size: 2.3em;
-  text-align: right;
-  padding-top: 85px;
-  padding-right: 20px;
+  width: 45%;
+  float: right;
+  margin: 93px 30px 40px 0px;
+  /*text-align: right;*/
+ /* padding-top: 85px;
+  padding-right: 20px;*/
 }
 
 .some-dog {
@@ -96,7 +105,7 @@ h1 {
 .form-btn {
   height: 50px;
   display: block;
-  width: 400px;
+  width: 109%;
   border: none;
   outline: none;
 }
@@ -124,6 +133,7 @@ h3 {
 .how-content {
   float: right;
   margin-top: 22px;
+  margin-right: 10px;
   font-size: 17px;
   width: 68%;
 }
@@ -131,6 +141,7 @@ h3 {
 .what-content {
   float: right;
   margin-top: 22px;
+  margin-right: 10px;
   font-size: 17px;
   width: 68%;
 }
@@ -138,6 +149,7 @@ h3 {
 .facts-content {
   float: right;
   margin-top: 22px;
+  margin-right: 10px;
   font-size: 17px;
   width: 68%;
 }
@@ -147,8 +159,10 @@ article {
 }
 
 div {
+  display: inline-block;
+/*
   padding: 0px 40px;
-  border-left: 2px solid #3E3544;
+  border-left: 2px solid #3E3544;*/
 }
 
 .how-what-facts {
@@ -164,8 +178,13 @@ div {
   background-color: #3E3544;
   color: #fff;
   border: none;
-  /*display: block;*/
-  font-size: 1.3em;  
+  font-size: 1.3em;
+  height: 45px;
+  width: 160px;
+  font-size: 17px;
+  font-family: inherit;
+  margin-left: 73%;
+  margin-top: 25px;
 }
 
 .dog-img {
@@ -176,10 +195,32 @@ footer {
   background-color: #3E3544;
   width: 83%;
   float:right;
-  height: 200px;
+  height: 230px;
 }
 
 .style-bottom-article {
   border-bottom: none;
+}
 
+.footer-message {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+  width: 75%;
+  text-align: right;
+  margin-top: 60px;
+}
+
+.footer-images {
+  float: right;
+  width: 160px;
+  margin-right: 30px;
+  margin-top: 45px;
+}
+
+.footer-img {
+  padding: 11px;
+  width: 70px;
+  height: 70px;
 }
