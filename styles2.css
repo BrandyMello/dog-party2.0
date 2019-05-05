@@ -1,7 +1,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  /*border: 3px solid red;*/
 }
 
 body {
@@ -209,6 +208,7 @@ footer {
 }
 
 @media screen and (max-width: 1110px) {
+  
   h1 {
     font-size: 2em;
   }
@@ -219,9 +219,10 @@ footer {
 }
 
 @media screen and (max-width: 1025px) {
-    .how-content,
-    .what-content,
-    .facts-content {
+  
+  .how-content,
+  .what-content,
+  .facts-content {
     margin-right: 35px;
     width: 60%;
   }
@@ -306,9 +307,10 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    .how-content,
-    .what-content,
-    .facts-content {
+  
+  .how-content,
+  .what-content,
+  .facts-content {
     width: 55%;
     font-size: 15px;
   }
@@ -356,6 +358,7 @@ footer {
 }
 
 @media screen and (max-width: 680px) {
+  
   nav {
     height: 1338px;
   }
@@ -401,6 +404,7 @@ footer {
 }
 
 @media screen and (max-width: 680px) {
+  
   .some-dog-img{
     width: 200px;
   }
