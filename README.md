@@ -13,5 +13,8 @@ Brandy A Mello
 ### My Comp 1
 <img width="406" alt="Screen Shot 2019-05-05 at 2 57 22 PM" src="https://user-images.githubusercontent.com/46384968/57200203-27584180-6f46-11e9-88c8-3be60a36554a.png">
 
+### My Comp 1 - Mobile
+![_Users_brandyamello_mod1-repeat_zen-garden_index html (2)](https://user-images.githubusercontent.com/46384968/57200366-5a9bd000-6f48-11e9-9173-9dec8ac73c39.png)
+
 ### My Comp 2
 <img width="404" alt="Screen Shot 2019-05-05 at 3 02 19 PM" src="https://user-images.githubusercontent.com/46384968/57200274-3a1f4600-6f47-11e9-8601-9c06319c8447.png">
