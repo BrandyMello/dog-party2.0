@@ -166,6 +166,7 @@ footer {
 }
 
 @media screen and (max-width: 990px) {
+  
   .site-nav {
     margin-left: 40%;
   }
@@ -173,17 +174,20 @@ footer {
   .content {
     height: 320px;
   }
+
   .form-label,
-    .form-btn,
-    .form-input {
-      width: 55%;
-    }
+  .form-btn,
+  .form-input {
+    width: 55%;
+  }
 }
 
 @media screen and (max-width: 860px) {
+  
   .content {
     height: 360px;
   }
+
   .form-label,
   .form-btn,
   .form-input {
@@ -196,68 +200,80 @@ footer {
 }
 
 @media screen and (max-width: 780px) {
+  
   .content {
     height: 400px;
   }
-  .form-label,
-    .form-btn,
-    .form-input {
-      width: 55%;
-    }
 
-      article {
+  .form-label,
+  .form-btn,
+  .form-input {
+    width: 55%;
+  }
+
+  article {
     height: 800px;
   }
 }
 
 @media screen and (max-width: 740px) {
-   .site-nav {
-      margin-left: 20%;
+   
+  .site-nav {
+    margin-left: 20%;
   }
-    #columns {
-      column-count: 1;
+
+  #columns {
+    column-count: 1;
   }
-    .content {
-      margin-left: 10%;
-      margin-right: 10%;
-      height: 409px;
-    }
-    h3 {
+
+  .content {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 409px;
+  }
+   
+  h3 {
     padding: 20px 0px;
     font-size: 1.5em;
   }
 }
 
 @media screen and (max-width: 640px) {
-    ul.site-nav li {
-      display: none;
-    }
-    ul.mobile-list li {
-      display: inline-block;
-      list-style: none;
-      float: right;
-    }
-    .mobile-list li {
-      margin: 10px;
-    }
-    h1 {
-      font-size: 2em;
-    }
-    .form-label,
-    .form-btn,
-    .form-input {
-      width: 75%;
-    }
-    h3 {
-      padding: 20px 0px;
-      font-size: 1.5em;
-    }
+    
+  ul.site-nav li {
+    display: none;
+  }
 
-    #main-content {
-      column-count: 1;
-    }
+  ul.mobile-list li {
+    display: inline-block;
+    list-style: none;
+    float: right;
+  }
 
-        article {
+  .mobile-list li {
+    margin: 10px;
+  }
+
+  h1 {
+    ont-size: 2em;
+  }
+
+  .form-label,
+  .form-btn,
+  .form-input {
+    width: 75%;
+  }
+
+  h3 {
+    padding: 20px 0px;
+    font-size: 1.5em;
+  }
+
+  #main-content {
+    column-count: 1;
+  }
+
+  article {
     height: 550px;
   }
 
@@ -275,5 +291,5 @@ footer {
 
   article {
     height: 540px;
-}
+  }
 }
