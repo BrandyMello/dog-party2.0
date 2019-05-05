@@ -49,7 +49,7 @@ ul.mobile-list li{
   background-color: gray;
   background-blend-mode: multiply;
   display: block;
-  height: 550px;
+  height: 600px;
 }
 
 h1 {
@@ -67,6 +67,8 @@ h1 {
   display: block;
   margin: auto;
   margin-top: 30px;
+  border-radius: 50%;
+  border: 4px solid #048eaa;
 }
 
 .dog-img {
@@ -116,7 +118,7 @@ h1 {
   font-size: 1.3em;  
 }
 
-#columns {
+#main-content {
   column-count: 3;
 }
 
@@ -183,10 +185,14 @@ footer {
     height: 360px;
   }
   .form-label,
-    .form-btn,
-    .form-input {
-      width: 55%;
-    }
+  .form-btn,
+  .form-input {
+    width: 55%;
+  }
+
+  article {
+    height: 760px;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -198,6 +204,10 @@ footer {
     .form-input {
       width: 55%;
     }
+
+      article {
+    height: 800px;
+  }
 }
 
 @media screen and (max-width: 740px) {
@@ -210,7 +220,7 @@ footer {
     .content {
       margin-left: 10%;
       margin-right: 10%;
-      height: auto;
+      height: 409px;
     }
     h3 {
     padding: 20px 0px;
@@ -218,7 +228,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 640px) {
     ul.site-nav li {
       display: none;
     }
@@ -242,4 +252,28 @@ footer {
       padding: 20px 0px;
       font-size: 1.5em;
     }
+
+    #main-content {
+      column-count: 1;
+    }
+
+        article {
+    height: 550px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .form-btn {
+    font-size: 1em;
+  }
+
+  .content {
+    height: 183px;
+  }
+
+  article {
+    height: 540px;
+}
 }
