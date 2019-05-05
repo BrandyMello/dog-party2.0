@@ -5,4 +5,7 @@ This is the result of the first solo project in Mod 1 1904 at Turing School of S
 Brandy A Mello
 
 ### Comp 1
-<img width="535" alt="Screen Shot 2019-04-29 at 3 44 20 PM" src="https://user-images.githubusercontent.com/46384968/56931574-9f81bb80-6a9d-11e9-809d-51c72a00dacf.png">
+<img width="535" alt="Screen Shot 2019-04-29 at 3 44 20 PM" src="https://user-images.githubusercontent.com/46384968/56931574-9f81bb80-6a9d-11e9-809d-51c72a00dacf.png"> 
+
+### Comp 2
+<img width="535" alt="Screen Shot 2019-05-05 at 2 32 29 PM" src="https://user-images.githubusercontent.com/46384968/57199983-c54a0d00-6f42-11e9-90e3-284fd1fcf5d4.png">
