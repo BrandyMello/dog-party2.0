@@ -1,8 +1,6 @@
 var dogName = document.querySelector("#dog-name");
 var nameDisplay = document.querySelector(".some-dog");
 var formBtn = document.querySelector(".form-btn");
-
-
 var showLessHowBtn = document.querySelector('.show-less-how-btn');
 var howContent = document.getElementById('how-content');
 var showLessWhatBtn =document.querySelector('.show-less-what-btn');
@@ -12,33 +10,16 @@ var factsContent = document.getElementById('facts-content')
 
 
 formBtn.addEventListener('click', changeName);
-
 showLessHowBtn.addEventListener('click', toggleHowContent);
 showLessWhatBtn.addEventListener('click', toggleWhatContent);
 showLessFactsBtn.addEventListener('click', toggleFactsContent);
-// document.addEventListener('click', toggleContent, true);
+
 
 function changeName(e) {
   e.preventDefault();
   nameDisplay.innerText = dogName.value;
   dogName.value = "";
 }
-
-// function toggleContent(e) {
-//   if (e.target && e.target.className == 'info-btn'){
-//     var sibElem = e.target.nextElementSibling;
-//     if (sibElem.style.display === 'none') {
-//     sibElem.style.display = 'block';
-//   }
-//   else {
-//     sibElem.style.display = 'none';
-//   }
-//   }
-// }
-
- // console.log('how-content')
-
-
 
 function toggleHowContent(e) {
   if (howContent.style.display === 'none') {
@@ -66,8 +47,3 @@ function toggleFactsContent(e) {
     factsContent.style.display = 'none';
   }
 }
-
-//grab the container #columns
-//add event listener on the entire container
-//conditionals for each button connecting to each content section
-//flip the switch for that section(already honed in on)
