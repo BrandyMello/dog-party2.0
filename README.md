@@ -9,3 +9,6 @@ Brandy A Mello
 
 ### Comp 2
 <img width="535" alt="Screen Shot 2019-05-05 at 2 32 29 PM" src="https://user-images.githubusercontent.com/46384968/57199983-c54a0d00-6f42-11e9-90e3-284fd1fcf5d4.png">
+
+### My Comp 1
+<img width="406" alt="Screen Shot 2019-05-05 at 2 57 22 PM" src="https://user-images.githubusercontent.com/46384968/57200203-27584180-6f46-11e9-88c8-3be60a36554a.png">
